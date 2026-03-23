@@ -1,5 +1,5 @@
-import AuthFlow from "../components/auth/AuthFlow";
+"use client";
 
-export default function AuthPage() {
-  return <AuthFlow />;
+export default function Page() {
+  return <p> Hello </p>;
 }

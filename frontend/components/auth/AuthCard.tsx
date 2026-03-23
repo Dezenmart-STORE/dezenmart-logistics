@@ -4,12 +4,12 @@ import IllustrationPanel from "../IllustrationPanel";
 import { Screen } from "../Types";
 import styles from "../../styles";
 
-interface AuthLayoutProps {
+interface AuthCardProps {
   screen: Screen;
   children: ReactNode;
 }
 
-export default function AuthLayout({ screen, children }: AuthLayoutProps) {
+export default function AuthCard({ screen, children }: AuthCardProps) {
   return (
     <div style={styles.card} className="fade-in">
       {/* Left Panel — form content */}
