@@ -4,15 +4,12 @@ import AuthLayout from "./AuthLayout";
 import Label from "../Label";
 import styles from "../../styles";
 
-interface SetPasswordScreenProps {
+interface SetPasswordProps {
   onBack?: () => void;
   onDone?: () => void;
 }
 
-export default function SetPasswordScreen({
-  onBack,
-  onDone,
-}: SetPasswordScreenProps) {
+export default function SetPassword({ onBack, onDone }: SetPasswordProps) {
   return (
     <AuthLayout screen="set-password">
       <div style={styles.form}>

@@ -5,15 +5,15 @@ import Label from "../Label";
 import SocialLogin from "../SocialLogin";
 import styles from "../../styles";
 
-interface ForgotPasswordScreenProps {
+interface ForgotPasswordProps {
   onBack?: () => void;
   onSubmit?: () => void;
 }
 
-export default function ForgotPasswordScreen({
+export default function ForgotPassword({
   onBack,
   onSubmit,
-}: ForgotPasswordScreenProps) {
+}: ForgotPasswordProps) {
   return (
     <AuthLayout screen="forgot">
       <div style={styles.form}>

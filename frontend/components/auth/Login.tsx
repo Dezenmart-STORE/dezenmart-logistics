@@ -6,12 +6,12 @@ import Label from "../Label";
 import SocialLogin from "../SocialLogin";
 import styles from "../../styles";
 
-interface LoginScreenProps {
+interface LoginProps {
   onForgot?: () => void;
   onSignup?: () => void;
 }
 
-export default function LoginScreen({ onForgot, onSignup }: LoginScreenProps) {
+export default function Login({ onForgot, onSignup }: LoginProps) {
   const [showPassword, setShowPassword] = useState(false);
   const [remember, setRemember] = useState(false);
 

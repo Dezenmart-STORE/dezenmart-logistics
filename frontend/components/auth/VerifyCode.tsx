@@ -5,15 +5,12 @@ import AuthLayout from "./AuthLayout";
 import Label from "../Label";
 import styles from "../../styles";
 
-interface VerifyCodeScreenProps {
+interface VerifyCodeProps {
   onBack?: () => void;
   onSubmit?: () => void;
 }
 
-export default function VerifyCodeScreen({
-  onBack,
-  onSubmit,
-}: VerifyCodeScreenProps) {
+export default function VerifyCode({ onBack, onSubmit }: VerifyCodeProps) {
   const [code, setCode] = useState("");
 
   return (

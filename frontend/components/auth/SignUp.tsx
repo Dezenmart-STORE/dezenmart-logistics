@@ -6,11 +6,11 @@ import Label from "../Label";
 import SocialLogin from "../SocialLogin";
 import styles from "../../styles";
 
-interface SignupScreenProps {
+interface SignUpProps {
   onLogin?: () => void;
 }
 
-export default function SignupScreen({ onLogin }: SignupScreenProps) {
+export default function SignUp({ onLogin }: SignUpProps) {
   const [agreed, setAgreed] = useState(false);
 
   return (
